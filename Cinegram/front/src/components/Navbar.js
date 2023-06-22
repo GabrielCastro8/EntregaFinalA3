@@ -28,6 +28,12 @@ const Navbar = () =>{
                 to="/remover">
                 Remover   
             </NavLink>
+
+            <NavLink
+                className={({isActive}) => (isActive ? "active" : undefined)}
+                to="/plataforma">
+                Plataforma  
+            </NavLink>
         </nav>
     );
 };

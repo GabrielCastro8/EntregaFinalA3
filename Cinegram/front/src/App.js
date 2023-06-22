@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Adicionar from './pages/Adicionar';
 import Filme from './pages/Filme';
 import Remover from './pages/Remover';
+import Plataforma from './pages/Plataforma';
 
 //Componets
 import Navbar from './components/Navbar';
@@ -24,6 +25,7 @@ function App() {
           <Route path="Filme" element={<Filme/>} />
           <Route path="Adicionar" element={<Adicionar/>} />
           <Route path="Remover" element={<Remover/>} />
+          <Route path="Plataforma" element={<Plataforma/>} />
         </Routes>
       </BrowserRouter>
       
